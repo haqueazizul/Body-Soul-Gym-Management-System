@@ -1,0 +1,38 @@
+
+
+header{
+    position: fixed;
+    top:0; left:0;
+    width:100%;
+    background:#fff;
+    box-shadow: 0 .5rem 1rem rgba(0,0,0,.1);
+    padding:2rem 9%;
+    display: flex;
+    align-items: center;
+   
+    z-index: 1000;
+}
+,navbar a {
+  color: #0d6efd;
+  text-decoration: none;
+  margin-left: 20px;
+}
+}
+.logo {
+  width: 80px;
+  height: 90px;
+}
+.navbar {
+  position: relative;
+  display: flex;
+  text-decoration: none;
+  
+  align-items: center;
+  justify-content: space-between;
+  padding-top: .5rem;
+  padding-bottom: .5rem;
+  margin-left: 150px;
+  font-size: 30px;
+  inline-size: px;
+  padding: 20px;
+}
