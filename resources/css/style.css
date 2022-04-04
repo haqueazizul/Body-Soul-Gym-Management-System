@@ -12,27 +12,39 @@ header{
    
     z-index: 1000;
 }
-,navbar a {
-  color: #0d6efd;
-  text-decoration: none;
-  margin-left: 20px;
-}
-}
 .logo {
-  width: 80px;
-  height: 90px;
+  width: 70px;
+  height: 70px;
 }
+
+.navbar a {
+  color: #010408;
+  text-decoration: none;
+  margin-left: 30px;
+}
+.navbar a:hover{
+  color: green;
+  font: bold;
+
+}
+
+
 .navbar {
   position: relative;
   display: flex;
   text-decoration: none;
+
+
   
   align-items: center;
-  justify-content: space-between;
-  padding-top: .5rem;
-  padding-bottom: .5rem;
-  margin-left: 150px;
-  font-size: 30px;
-  inline-size: px;
-  padding: 20px;
+  
+  
+  margin:0px 60px;
+  font-size: 25px;
+ 
+  padding: 10px 60px;
+}
+.navbar .login{
+  color: red;
+  background: green;
 }
