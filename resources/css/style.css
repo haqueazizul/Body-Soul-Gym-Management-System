@@ -37,7 +37,6 @@ body{
     cursor: pointer;
     box-shadow: 0 .5rem 1rem rgba(0,0,0,.1);
     transition: all .3s linear;
-
     background-image: linear-gradient(to bottom,#43B65C,#E2D);
 }
 
@@ -58,14 +57,15 @@ header{
     padding:2rem 9%;
     display: flex;
     align-items: center;
-   
     z-index: 1000;
 }
 .logo {
   width: 70px;
   height: 70px;
 }
+ 
 
+ /* ###### Navigation Bar ####### */
 .navbar a {
   color: #010408;
   text-decoration: none;
@@ -84,17 +84,12 @@ header{
   position: relative;
   display: flex;
   text-decoration: none;
-
-
-  
   align-items: center;
-  
-  
   margin:0px 50px;
   font-size: 25px;
- 
   padding: 10px 60px;
 }
+
 .navbar .login{
   color: #fff;
   
@@ -107,6 +102,7 @@ header{
   margin-top: 100px;
   margin-left: 8rem;
 }
+
 .content-1 {
   margin-top: 10rem;
   margin-left: 10rem;
@@ -116,9 +112,70 @@ header{
   width: 450px;
   height: 315px;
 }
+
 .built-text {
   font-size: 50px;
   width: 44rem;
   color: #2EA849;
   
+}
+
+
+/* ###### UTILIZE YOUR TIME ####### */
+
+.section-2 {
+  margin-top: 100px;
+  margin-left: 8rem;
+}
+.utilize-image {
+  width: 600px;
+  height: 430px;
+}
+
+.content-utilize {
+  margin-top: 10rem;
+  width: 30rem;
+}
+
+
+.utilize-time-text {
+  margin-bottom: 4rem;
+  font-size: 2rem;
+  color: #2EA849;
+}
+
+
+
+/* ###### GYM ACCESS CONTROL  ####### */
+
+.section-3 {
+  margin-top: 100px;
+  margin-left: 8rem;
+}
+
+.content-3 {
+  margin-left: 10rem;
+}
+
+
+
+
+#gymaccesstxt {
+  color: #2EA849;
+}
+
+
+
+.gym-text {
+  width: 38rem;
+  margin-top: 4rem;
+}
+
+#gymaccess-btn{
+  margin-top: 9rem;
+}
+
+.gymaccess-image{
+  width: 410px;
+  height: 320px;
 }
