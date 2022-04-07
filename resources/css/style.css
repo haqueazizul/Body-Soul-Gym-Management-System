@@ -39,7 +39,16 @@ body{
     transition: all .3s linear;
     background-image: linear-gradient(to bottom,#43B65C,#E2D);
 }
+.btn:hover{
+    color: black;
+}
 
+
+.btn:hover,
+.btn:focus {
+    box-shadow: 0 0.5em 0.5em -0.4em var(--hover);
+    transform: translateY(-0.25em);
+}
   
 
   
@@ -54,7 +63,7 @@ header{
     width:100%;
     background:#fff;
     box-shadow: 0 .5rem 1rem rgba(0,0,0,.1);
-    padding:2rem 9%;
+    padding:1rem 9%;
     display: flex;
     align-items: center;
     z-index: 1000;
@@ -179,3 +188,69 @@ header{
   width: 410px;
   height: 320px;
 }
+
+
+/* ###### Body & Soul gym management system  ####### */
+
+
+
+.section-4 {
+  margin-top: 100px;
+  margin-left: 8rem;
+}
+
+
+.chartmng-image{
+  width: 474px;
+  height: 413px;
+  margin-left: 2rem;
+}
+
+.content-4{
+  margin-top: 5rem;
+  
+
+}
+.gym-mng-txt{
+  margin-bottom: 3rem;
+  color: #2EA849;
+}
+
+#gym-mng-img{
+  margin-top: 5rem;
+
+}
+
+.get-member-txt{
+  width: 42rem;
+}
+
+
+
+/* ###### WHY SHOULD YOU PICK US ####### */
+.section-5 {
+  margin-top: 100px;
+  margin-left: 8rem;
+}
+.datatable-image{
+  width: 560px;
+  height: 400px;
+
+}
+
+.content-5{
+
+  margin-top: 5rem;
+  margin-left: 10rem;
+}
+
+#pickus-txt{
+  margin-bottom: 4rem;
+  color: #2EA849;
+}
+
+.reason-txt{
+  font-size: 2.5rem;
+  margin-left: 2rem;
+}
+
