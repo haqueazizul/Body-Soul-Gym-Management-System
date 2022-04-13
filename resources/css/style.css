@@ -321,3 +321,113 @@ a{
 .box {
     padding: 3%;
 }
+
+
+
+/* ###### SOME OF OUR CUSTOMERS ####### */
+
+
+.cus-tomers{
+  margin-top: 8rem;
+  text-align: center;
+  color: #2EA849;
+  margin-left: -7rem;
+
+}
+.customers-section{
+  margin-left: 15rem;
+}
+
+.customers-section .cus-tomers::after{
+  content: "";
+  display: block;
+  height: .1rem;
+  background: #999;
+  width: 30rem ;
+  margin: auto;
+  margin-top: 2rem;
+  } 
+
+
+.picture-2 {
+  width: 204px;
+  height: 165px;
+  margin-left: 15rem;
+}
+
+.picture-3 {
+  width: 170px;
+  height: 132px;
+  margin-left: 20rem;
+  
+}
+
+.picture-4 {
+  width: 183px;
+  height: 155px;
+}
+
+.picture-5 {
+  width: 170px;
+  height: 135px;
+  margin-left: 18rem;
+}
+
+.picture-6 {
+  margin-left: 15rem;
+}
+
+.picture-7 {
+  width: 200px;
+  height: 209px;
+  margin-left: -1.5rem;
+}
+
+.picture-8 {
+  height: 170px;
+  width: 150px;
+  margin-left: 18.5rem;
+}
+
+.picture-9 {
+  width: 175px;
+  height: 143px;
+  margin-left: 23rem;
+}
+
+
+
+
+
+/* ###### FOOTER SECTION ####### */
+
+.footer-section{
+ 
+  background-color:#000000 ;
+  color: white;
+}
+
+.footer-section h2{
+  margin-bottom: 4rem;
+}
+
+#left-text {
+  margin-left: 25rem;
+  margin-top: 7rem;
+  color: white;
+}
+
+#right-text {
+  margin-top: 7rem;
+  margin-left: 6rem;
+  color: white;
+}
+
+.copyright {
+  text-align: center;
+  margin-top: 3rem;
+}
+.footer-section p:hover{
+  color: white;
+}
+
